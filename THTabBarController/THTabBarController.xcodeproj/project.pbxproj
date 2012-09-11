@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41A268615E0CC56002B0C8A /* THTabBarShine.png in Resources */ = {isa = PBXBuildFile; fileRef = C41A268415E0CC56002B0C8A /* THTabBarShine.png */; };
+		C41A268715E0CC56002B0C8A /* THTabBarShine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C41A268515E0CC56002B0C8A /* THTabBarShine@2x.png */; };
+		C41A268A15E0D35E002B0C8A /* UIView+THKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C41A268915E0D35D002B0C8A /* UIView+THKitAdditions.m */; };
+		C429A15515E087D700755832 /* THTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C429A14B15E087D700755832 /* THTabBarButton.m */; };
+		C429A15615E087D700755832 /* THTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C429A14D15E087D700755832 /* THTabBarController.m */; };
+		C429A15715E087D700755832 /* THTabBarControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C429A14F15E087D700755832 /* THTabBarControllerView.m */; };
+		C429A15815E087D700755832 /* THTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C429A15115E087D700755832 /* THTabBarItem.m */; };
+		C429A15915E087D700755832 /* THTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C429A15315E087D700755832 /* THTabBarView.m */; };
+		C429A16115E090CC00755832 /* THTabBarBlueGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A15F15E090CC00755832 /* THTabBarBlueGradient.png */; };
+		C429A16215E090CC00755832 /* THTabBarBlueGradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A16015E090CC00755832 /* THTabBarBlueGradient@2x.png */; };
+		C429A16D15E090E800755832 /* THTabBarUser.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A16515E090E800755832 /* THTabBarUser.png */; };
+		C429A16E15E090E800755832 /* THTabBarUser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A16615E090E800755832 /* THTabBarUser@2x.png */; };
+		C429A16F15E090E800755832 /* THTabBarDownloads.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A16715E090E800755832 /* THTabBarDownloads.png */; };
+		C429A17015E090E800755832 /* THTabBarDownloads@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A16815E090E800755832 /* THTabBarDownloads@2x.png */; };
+		C429A17215E090E800755832 /* THTabBarFavorites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A16A15E090E800755832 /* THTabBarFavorites@2x.png */; };
+		C429A17515E090FA00755832 /* THTabBarSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A17315E090FA00755832 /* THTabBarSearch.png */; };
+		C429A17615E090FA00755832 /* THTabBarSearch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C429A17415E090FA00755832 /* THTabBarSearch@2x.png */; };
+		C43149B815FE8B6F00020A8B /* ActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C43149B715FE8B6F00020A8B /* ActionView.m */; };
+		C43149C215FEA8CF00020A8B /* linen.png in Resources */ = {isa = PBXBuildFile; fileRef = C43149C115FEA8CF00020A8B /* linen.png */; };
+		C43149C415FEAD6900020A8B /* THTabBarFavorites.png in Resources */ = {isa = PBXBuildFile; fileRef = C43149C315FEAD6900020A8B /* THTabBarFavorites.png */; };
+		C46B505D15FD33DC00FFAD5F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46B505C15FD33DC00FFAD5F /* QuartzCore.framework */; };
+		C4EF4ED715CE0F4E003226AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF4ED615CE0F4E003226AA /* UIKit.framework */; };
+		C4EF4ED915CE0F4E003226AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF4ED815CE0F4E003226AA /* Foundation.framework */; };
+		C4EF4EDB15CE0F4E003226AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF4EDA15CE0F4E003226AA /* CoreGraphics.framework */; };
+		C4EF4EE115CE0F4E003226AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4EF4EDF15CE0F4E003226AA /* InfoPlist.strings */; };
+		C4EF4EE315CE0F4E003226AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EF4EE215CE0F4E003226AA /* main.m */; };
+		C4EF4EE715CE0F4E003226AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EF4EE615CE0F4E003226AA /* AppDelegate.m */; };
+		C4EF4EF015CE0F4E003226AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EF4EEF15CE0F4E003226AA /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C41A268415E0CC56002B0C8A /* THTabBarShine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THTabBarShine.png; sourceTree = "<group>"; };
+		C41A268515E0CC56002B0C8A /* THTabBarShine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "THTabBarShine@2x.png"; sourceTree = "<group>"; };
+		C41A268815E0D35D002B0C8A /* UIView+THKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THKitAdditions.h"; sourceTree = "<group>"; };
+		C41A268915E0D35D002B0C8A /* UIView+THKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THKitAdditions.m"; sourceTree = "<group>"; };
+		C429A14A15E087D700755832 /* THTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTabBarButton.h; sourceTree = "<group>"; };
+		C429A14B15E087D700755832 /* THTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTabBarButton.m; sourceTree = "<group>"; };
+		C429A14C15E087D700755832 /* THTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTabBarController.h; sourceTree = "<group>"; };
+		C429A14D15E087D700755832 /* THTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTabBarController.m; sourceTree = "<group>"; };
+		C429A14E15E087D700755832 /* THTabBarControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTabBarControllerView.h; sourceTree = "<group>"; };
+		C429A14F15E087D700755832 /* THTabBarControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTabBarControllerView.m; sourceTree = "<group>"; };
+		C429A15015E087D700755832 /* THTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTabBarItem.h; sourceTree = "<group>"; };
+		C429A15115E087D700755832 /* THTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTabBarItem.m; sourceTree = "<group>"; };
+		C429A15215E087D700755832 /* THTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTabBarView.h; sourceTree = "<group>"; };
+		C429A15315E087D700755832 /* THTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTabBarView.m; sourceTree = "<group>"; };
+		C429A15F15E090CC00755832 /* THTabBarBlueGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THTabBarBlueGradient.png; sourceTree = "<group>"; };
+		C429A16015E090CC00755832 /* THTabBarBlueGradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "THTabBarBlueGradient@2x.png"; sourceTree = "<group>"; };
+		C429A16515E090E800755832 /* THTabBarUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THTabBarUser.png; sourceTree = "<group>"; };
+		C429A16615E090E800755832 /* THTabBarUser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "THTabBarUser@2x.png"; sourceTree = "<group>"; };
+		C429A16715E090E800755832 /* THTabBarDownloads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THTabBarDownloads.png; sourceTree = "<group>"; };
+		C429A16815E090E800755832 /* THTabBarDownloads@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "THTabBarDownloads@2x.png"; sourceTree = "<group>"; };
+		C429A16A15E090E800755832 /* THTabBarFavorites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "THTabBarFavorites@2x.png"; sourceTree = "<group>"; };
+		C429A17315E090FA00755832 /* THTabBarSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THTabBarSearch.png; sourceTree = "<group>"; };
+		C429A17415E090FA00755832 /* THTabBarSearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "THTabBarSearch@2x.png"; sourceTree = "<group>"; };
+		C43149B615FE8B6E00020A8B /* ActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionView.h; sourceTree = "<group>"; };
+		C43149B715FE8B6F00020A8B /* ActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionView.m; sourceTree = "<group>"; };
+		C43149C115FEA8CF00020A8B /* linen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linen.png; sourceTree = "<group>"; };
+		C43149C315FEAD6900020A8B /* THTabBarFavorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THTabBarFavorites.png; sourceTree = "<group>"; };
+		C46B505C15FD33DC00FFAD5F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C4EF4ED215CE0F4E003226AA /* THTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EF4ED615CE0F4E003226AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4EF4ED815CE0F4E003226AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4EF4EDA15CE0F4E003226AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4EF4EDE15CE0F4E003226AA /* THTabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THTabBarController-Info.plist"; sourceTree = "<group>"; };
+		C4EF4EE015CE0F4E003226AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4EF4EE215CE0F4E003226AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4EF4EE415CE0F4E003226AA /* THTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		C4EF4EE515CE0F4E003226AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4EF4EE615CE0F4E003226AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4EF4EEE15CE0F4E003226AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4EF4EEF15CE0F4E003226AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EF4ECF15CE0F4E003226AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46B505D15FD33DC00FFAD5F /* QuartzCore.framework in Frameworks */,
+				C4EF4ED715CE0F4E003226AA /* UIKit.framework in Frameworks */,
+				C4EF4ED915CE0F4E003226AA /* Foundation.framework in Frameworks */,
+				C4EF4EDB15CE0F4E003226AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C43149C715FEADAC00020A8B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C429A14A15E087D700755832 /* THTabBarButton.h */,
+				C429A14B15E087D700755832 /* THTabBarButton.m */,
+				C429A14C15E087D700755832 /* THTabBarController.h */,
+				C429A14D15E087D700755832 /* THTabBarController.m */,
+				C429A14E15E087D700755832 /* THTabBarControllerView.h */,
+				C429A14F15E087D700755832 /* THTabBarControllerView.m */,
+				C429A15015E087D700755832 /* THTabBarItem.h */,
+				C429A15115E087D700755832 /* THTabBarItem.m */,
+				C429A15215E087D700755832 /* THTabBarView.h */,
+				C429A15315E087D700755832 /* THTabBarView.m */,
+				C41A268815E0D35D002B0C8A /* UIView+THKitAdditions.h */,
+				C41A268915E0D35D002B0C8A /* UIView+THKitAdditions.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		C4EF4EC715CE0F4E003226AA = {
+			isa = PBXGroup;
+			children = (
+				C4EF4EDC15CE0F4E003226AA /* THTabBarController */,
+				C4EF4ED515CE0F4E003226AA /* Frameworks */,
+				C4EF4ED315CE0F4E003226AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EF4ED315CE0F4E003226AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF4ED215CE0F4E003226AA /* THTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EF4ED515CE0F4E003226AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF4EDA15CE0F4E003226AA /* CoreGraphics.framework */,
+				C4EF4ED815CE0F4E003226AA /* Foundation.framework */,
+				C46B505C15FD33DC00FFAD5F /* QuartzCore.framework */,
+				C4EF4ED615CE0F4E003226AA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4EF4EDC15CE0F4E003226AA /* THTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C43149C715FEADAC00020A8B /* TabBar */,
+				C4EF4EE515CE0F4E003226AA /* AppDelegate.h */,
+				C4EF4EE615CE0F4E003226AA /* AppDelegate.m */,
+				C43149B615FE8B6E00020A8B /* ActionView.h */,
+				C43149B715FE8B6F00020A8B /* ActionView.m */,
+				C4EF4EEE15CE0F4E003226AA /* ViewController.h */,
+				C4EF4EEF15CE0F4E003226AA /* ViewController.m */,
+				C4EF4EDD15CE0F4E003226AA /* Supporting Files */,
+			);
+			path = THTabBarController;
+			sourceTree = "<group>";
+		};
+		C4EF4EDD15CE0F4E003226AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF4EDF15CE0F4E003226AA /* InfoPlist.strings */,
+				C43149C115FEA8CF00020A8B /* linen.png */,
+				C4EF4EE215CE0F4E003226AA /* main.m */,
+				C429A15F15E090CC00755832 /* THTabBarBlueGradient.png */,
+				C429A16015E090CC00755832 /* THTabBarBlueGradient@2x.png */,
+				C4EF4EDE15CE0F4E003226AA /* THTabBarController-Info.plist */,
+				C4EF4EE415CE0F4E003226AA /* THTabBarController-Prefix.pch */,
+				C429A16715E090E800755832 /* THTabBarDownloads.png */,
+				C429A16815E090E800755832 /* THTabBarDownloads@2x.png */,
+				C43149C315FEAD6900020A8B /* THTabBarFavorites.png */,
+				C429A16A15E090E800755832 /* THTabBarFavorites@2x.png */,
+				C429A17315E090FA00755832 /* THTabBarSearch.png */,
+				C429A17415E090FA00755832 /* THTabBarSearch@2x.png */,
+				C41A268415E0CC56002B0C8A /* THTabBarShine.png */,
+				C41A268515E0CC56002B0C8A /* THTabBarShine@2x.png */,
+				C429A16515E090E800755832 /* THTabBarUser.png */,
+				C429A16615E090E800755832 /* THTabBarUser@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EF4ED115CE0F4E003226AA /* THTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EF4EF315CE0F4E003226AA /* Build configuration list for PBXNativeTarget "THTabBarController" */;
+			buildPhases = (
+				C4EF4ECE15CE0F4E003226AA /* Sources */,
+				C4EF4ECF15CE0F4E003226AA /* Frameworks */,
+				C4EF4ED015CE0F4E003226AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THTabBarController;
+			productName = THTabBarController;
+			productReference = C4EF4ED215CE0F4E003226AA /* THTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EF4EC915CE0F4E003226AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "TapHarmonic, LLC";
+			};
+			buildConfigurationList = C4EF4ECC15CE0F4E003226AA /* Build configuration list for PBXProject "THTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4EF4EC715CE0F4E003226AA;
+			productRefGroup = C4EF4ED315CE0F4E003226AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EF4ED115CE0F4E003226AA /* THTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EF4ED015CE0F4E003226AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EF4EE115CE0F4E003226AA /* InfoPlist.strings in Resources */,
+				C429A16115E090CC00755832 /* THTabBarBlueGradient.png in Resources */,
+				C429A16215E090CC00755832 /* THTabBarBlueGradient@2x.png in Resources */,
+				C429A16D15E090E800755832 /* THTabBarUser.png in Resources */,
+				C429A16E15E090E800755832 /* THTabBarUser@2x.png in Resources */,
+				C429A16F15E090E800755832 /* THTabBarDownloads.png in Resources */,
+				C429A17015E090E800755832 /* THTabBarDownloads@2x.png in Resources */,
+				C429A17215E090E800755832 /* THTabBarFavorites@2x.png in Resources */,
+				C429A17515E090FA00755832 /* THTabBarSearch.png in Resources */,
+				C429A17615E090FA00755832 /* THTabBarSearch@2x.png in Resources */,
+				C41A268615E0CC56002B0C8A /* THTabBarShine.png in Resources */,
+				C41A268715E0CC56002B0C8A /* THTabBarShine@2x.png in Resources */,
+				C43149C215FEA8CF00020A8B /* linen.png in Resources */,
+				C43149C415FEAD6900020A8B /* THTabBarFavorites.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EF4ECE15CE0F4E003226AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EF4EE315CE0F4E003226AA /* main.m in Sources */,
+				C4EF4EE715CE0F4E003226AA /* AppDelegate.m in Sources */,
+				C4EF4EF015CE0F4E003226AA /* ViewController.m in Sources */,
+				C429A15515E087D700755832 /* THTabBarButton.m in Sources */,
+				C429A15615E087D700755832 /* THTabBarController.m in Sources */,
+				C429A15715E087D700755832 /* THTabBarControllerView.m in Sources */,
+				C429A15815E087D700755832 /* THTabBarItem.m in Sources */,
+				C429A15915E087D700755832 /* THTabBarView.m in Sources */,
+				C41A268A15E0D35E002B0C8A /* UIView+THKitAdditions.m in Sources */,
+				C43149B815FE8B6F00020A8B /* ActionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4EF4EDF15CE0F4E003226AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EF4EE015CE0F4E003226AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EF4EF115CE0F4E003226AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4EF4EF215CE0F4E003226AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EF4EF415CE0F4E003226AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THTabBarController/THTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "THTabBarController/THTabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4EF4EF515CE0F4E003226AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THTabBarController/THTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "THTabBarController/THTabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EF4ECC15CE0F4E003226AA /* Build configuration list for PBXProject "THTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EF4EF115CE0F4E003226AA /* Debug */,
+				C4EF4EF215CE0F4E003226AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EF4EF315CE0F4E003226AA /* Build configuration list for PBXNativeTarget "THTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EF4EF415CE0F4E003226AA /* Debug */,
+				C4EF4EF515CE0F4E003226AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4EF4EC915CE0F4E003226AA /* Project object */;
+}
