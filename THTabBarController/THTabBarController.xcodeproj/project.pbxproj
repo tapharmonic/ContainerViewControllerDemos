@@ -27,6 +27,7 @@
 		C43149B815FE8B6F00020A8B /* ActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C43149B715FE8B6F00020A8B /* ActionView.m */; };
 		C43149C215FEA8CF00020A8B /* linen.png in Resources */ = {isa = PBXBuildFile; fileRef = C43149C115FEA8CF00020A8B /* linen.png */; };
 		C43149C415FEAD6900020A8B /* THTabBarFavorites.png in Resources */ = {isa = PBXBuildFile; fileRef = C43149C315FEAD6900020A8B /* THTabBarFavorites.png */; };
+		C448C250168F9B7100964E55 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C448C24F168F9B7100964E55 /* Default-568h@2x.png */; };
 		C46B505D15FD33DC00FFAD5F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46B505C15FD33DC00FFAD5F /* QuartzCore.framework */; };
 		C4EF4ED715CE0F4E003226AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF4ED615CE0F4E003226AA /* UIKit.framework */; };
 		C4EF4ED915CE0F4E003226AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF4ED815CE0F4E003226AA /* Foundation.framework */; };
@@ -65,6 +66,7 @@
 		C43149B715FE8B6F00020A8B /* ActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionView.m; sourceTree = "<group>"; };
 		C43149C115FEA8CF00020A8B /* linen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linen.png; sourceTree = "<group>"; };
 		C43149C315FEAD6900020A8B /* THTabBarFavorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THTabBarFavorites.png; sourceTree = "<group>"; };
+		C448C24F168F9B7100964E55 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C46B505C15FD33DC00FFAD5F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C4EF4ED215CE0F4E003226AA /* THTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EF4ED615CE0F4E003226AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -160,6 +162,7 @@
 		C4EF4EDD15CE0F4E003226AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C448C24F168F9B7100964E55 /* Default-568h@2x.png */,
 				C4EF4EDF15CE0F4E003226AA /* InfoPlist.strings */,
 				C43149C115FEA8CF00020A8B /* linen.png */,
 				C4EF4EE215CE0F4E003226AA /* main.m */,
@@ -246,6 +249,7 @@
 				C41A268715E0CC56002B0C8A /* THTabBarShine@2x.png in Resources */,
 				C43149C215FEA8CF00020A8B /* linen.png in Resources */,
 				C43149C415FEAD6900020A8B /* THTabBarFavorites.png in Resources */,
+				C448C250168F9B7100964E55 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
