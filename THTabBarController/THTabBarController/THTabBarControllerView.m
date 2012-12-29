@@ -106,6 +106,7 @@
             CALayer *oldLayer = [self decorateLayerWithShadow:oldContentView.layer];
             CALayer *newLayer = [self decorateLayerWithShadow:newContentView.layer];
 
+			self.userInteractionEnabled = NO;
             [UIView animateWithDuration:0.25f animations:^{
                 CATransform3D scaledTransform = CATransform3DScale(CATransform3DIdentity, 0.85f, 0.85f, 1.0f);
                 oldLayer.transform = scaledTransform;
@@ -127,6 +128,7 @@
 													  } completion:^(BOOL finished) {
 														  [oldContentView removeFromSuperview];
 														  [_contentView setNeedsLayout];
+														  self.userInteractionEnabled = YES;
 													  }];
                                  }];
             }];
