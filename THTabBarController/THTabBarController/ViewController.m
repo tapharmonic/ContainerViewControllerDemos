@@ -42,6 +42,10 @@
 	return controller;
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (void)loadView {
     self.view = [[ActionView alloc] initWithFrame:CGRectZero];
 	NSMutableArray *buttons = [NSMutableArray array];

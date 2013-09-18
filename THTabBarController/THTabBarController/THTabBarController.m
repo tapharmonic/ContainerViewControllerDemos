@@ -58,6 +58,10 @@
     return [self init];
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (void)setTabBarAnchor:(THTabBarAnchor)tabBarAnchor {
     _tabBarAnchor = tabBarAnchor;
     [(THTabBarControllerView *) self.view setTabBarAnchor:tabBarAnchor];
