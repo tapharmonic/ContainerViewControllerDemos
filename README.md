@@ -4,4 +4,4 @@ Demo code from Bob McCune's "Creating Container View Controllers" talk at 360iDe
 
 ### Usage
 - Tap at the top or bottom of the screen to move the tab bar.
-- Tap the center of the screen to change the animation for the typical UITabBarController behavior to an animated transition.
+- Tap the center of the screen to enable an animated transition when switching tabs.
